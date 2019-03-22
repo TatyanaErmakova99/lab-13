@@ -7,19 +7,19 @@ public class Lambda {
     void func1 ()  {
         List<Integer> list = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
 
-        System.out.print("Âûâîäèò âñå ÷èñëà: ");
+        System.out.print("Ð’Ñ‹Ð²Ð¾Ð´Ð¸Ñ‚ Ð²ÑÐµ Ñ‡Ð¸ÑÐ»Ð°: ");
         evaluate(list, (n)->true);
 
-        System.out.print("Íå âûâîäèò íè îäíîãî ÷èñëà: ");
+        System.out.print("ÐÐµ Ð²Ñ‹Ð²Ð¾Ð´Ð¸Ñ‚ Ð½Ð¸ Ð¾Ð´Ð½Ð¾Ð³Ð¾ Ñ‡Ð¸ÑÐ»Ð°: ");
         evaluate(list, (n)->false);
 
-        System.out.print("Âûâîä ÷åòíûõ ÷èñåë: ");
+        System.out.print("Ð’Ñ‹Ð²Ð¾Ð´ Ñ‡ÐµÑ‚Ð½Ñ‹Ñ… Ñ‡Ð¸ÑÐµÐ»: ");
         evaluate(list, (n)-> n%2 == 0 );
 
-        System.out.print("Âûâîä íå÷åòíûõ ÷èñåë: ");
+        System.out.print("Ð’Ñ‹Ð²Ð¾Ð´ Ð½ÐµÑ‡ÐµÑ‚Ð½Ñ‹Ñ… Ñ‡Ð¸ÑÐµÐ»: ");
         evaluate(list, (n)-> n%2 == 1 );
 
-        System.out.print("Âûâîä ÷èñåë áîëüøå 5: ");
+        System.out.print("Ð’Ñ‹Ð²Ð¾Ð´ Ñ‡Ð¸ÑÐµÐ» Ð±Ð¾Ð»ÑŒÑˆÐµ 5: ");
         evaluate(list, (n)-> n > 5 );
 
     }
