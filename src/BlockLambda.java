@@ -11,10 +11,10 @@ class BlockLambda {
             return result;
         };
 
-        System.out.println("Факториал числа 2 равен " + factorial.func(2));
-        System.out.println("Факториал числа 4 равен " + factorial.func(4));
-        System.out.println("Факториал числа 6 равен " + factorial.func(6));
-        System.out.println("Факториал числа 8 равен " + factorial.func(8));
-        System.out.println("Факториал числа 10 равен " + factorial.func(10));
+        System.out.println("Р¤Р°РєС‚РѕСЂРёР°Р» С‡РёСЃР»Р° 2 СЂР°РІРµРЅ " + factorial.func(2));
+        System.out.println("Р¤Р°РєС‚РѕСЂРёР°Р» С‡РёСЃР»Р° 4 СЂР°РІРµРЅ " + factorial.func(4));
+        System.out.println("Р¤Р°РєС‚РѕСЂРёР°Р» С‡РёСЃР»Р° 6 СЂР°РІРµРЅ " + factorial.func(6));
+        System.out.println("Р¤Р°РєС‚РѕСЂРёР°Р» С‡РёСЃР»Р° 8 СЂР°РІРµРЅ " + factorial.func(8));
+        System.out.println("Р¤Р°РєС‚РѕСЂРёР°Р» С‡РёСЃР»Р° 10 СЂР°РІРµРЅ " + factorial.func(10));
     }
 }
