@@ -18,8 +18,8 @@ public class LambdaTwoArgs {
         int result3 = operation3.calculate(10, 20);
 
 
-        System.out.println("Результат умножения 10*20= "+result1);
-        System.out.println("Результат сложения 10+20= "+result2);
-        System.out.println("Результат возведения в квадрат у^2= "+result3);
+        System.out.println("Р РµР·СѓР»СЊС‚Р°С‚ СѓРјРЅРѕР¶РµРЅРёСЏ 10*20= "+result1);
+        System.out.println("Р РµР·СѓР»СЊС‚Р°С‚ СЃР»РѕР¶РµРЅРёСЏ 10+20= "+result2);
+        System.out.println("Р РµР·СѓР»СЊС‚Р°С‚ РІРѕР·РІРµРґРµРЅРёСЏ РІ РєРІР°РґСЂР°С‚ Сѓ^2= "+result3);
     }
 }
