@@ -5,13 +5,13 @@ public class Main {
         BlockLambda Block = new BlockLambda();
         LambdaTwoArgs Two = new LambdaTwoArgs();
 
-        System.out.print("Демонстрация Lambda-выражения: \n");
+        System.out.print("Р”РµРјРѕРЅСЃС‚СЂР°С†РёСЏ Lambda-РІС‹СЂР°Р¶РµРЅРёСЏ: \n");
         Lmb.func1();
         System.out.print("\n\n");
-        System.out.print("Демонстрация блочного Lambda-выражения: \n");
+        System.out.print("Р”РµРјРѕРЅСЃС‚СЂР°С†РёСЏ Р±Р»РѕС‡РЅРѕРіРѕ Lambda-РІС‹СЂР°Р¶РµРЅРёСЏ: \n");
         Block.func2();
         System.out.print("\n\n");
-        System.out.print("Демонстрация Lambda-выражения с двумя аргументами: \n");
+        System.out.print("Р”РµРјРѕРЅСЃС‚СЂР°С†РёСЏ Lambda-РІС‹СЂР°Р¶РµРЅРёСЏ СЃ РґРІСѓРјСЏ Р°СЂРіСѓРјРµРЅС‚Р°РјРё: \n");
         Two.func3();
 
     }
